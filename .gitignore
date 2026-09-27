@@ -1,0 +1,17 @@
+# Raw data is licensed (TEJ) and must not be committed
+data/raw/*
+!data/raw/.gitkeep
+# Exception: hand-compiled from public Central Bank of Taiwan statistics, not TEJ
+!data/raw/risk_free_rate_extension.csv
+
+# Intermediate cache between scripts/01 and scripts/02
+output/backtests.rds
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS
+.DS_Store
